@@ -1,18 +1,11 @@
 import React from 'react'
 import LandingScreen from './components/LandingScreen';
-import { newBg } from './assets'
+import './App.css';
 
 
 export const App = () => {
   return (
-    <div style={{
-      backgroundImage: `url(${newBg})`,
-      backgroundPosition: 'center',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-      width: '100vw',
-      height: '100vh'
-    }} >
+    <div className='bg'>
       <LandingScreen />
     </div>
   )
